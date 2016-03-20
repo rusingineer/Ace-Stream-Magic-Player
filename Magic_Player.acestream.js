@@ -28,7 +28,7 @@
 // @require     http://awe-static.acestream.me/lib/ts/player.js?7
 // @require     http://awe-static.acestream.me/lib/ts/magicplayer.js?1
 // @require     http://awe-static.acestream.me/lib/ts/button.js
-// @require     http://awe-static.acestream.me/handlers/rutor.js?9
+// @require     https://raw.githubusercontent.com/rusingineer/Ace-Stream-Magic-Player/master/handlers/rutor.js
 // @require     http://awe-static.acestream.me/handlers/rutracker.js?8
 // @require     http://awe-static.acestream.me/handlers/1337x.js?5
 // @require     http://awe-static.acestream.me/handlers/adminko.js
