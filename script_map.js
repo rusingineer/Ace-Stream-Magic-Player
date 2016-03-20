@@ -8,7 +8,7 @@ var magicplayer = {
 magicplayer.script_map = [
 	{
 	    hpattern: '^http(s)?://([^\\.]+\\.)?(new-rutor|rutor)\\(.org|.info|.is)',
-        pattern: '^http(s)?://([^\\.]+\\.)?(new-rutor|rutor)\\(.org/torrent/|.info/torrent/|.is/torrent/)\\d+',
+        pattern: '^http(s)?://([^\\.]+\\.)?(new-rutor|rutor)\\.info/torrent/\\d+',
         handler: 'rutor'
     },
     {
