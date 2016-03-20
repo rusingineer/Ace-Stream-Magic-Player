@@ -4,7 +4,7 @@
 // @author      Ace Stream
 // @homepageURL http://awe.acestream.me/scripts/acestream/Magic_Player
 // @description Watch torrents online
-// @version     1.0.13
+// @version     1.0.13.1
 // @grant       GM_log
 // @grant       AWE_getLocale
 // @grant       GM_getResourceText
@@ -21,7 +21,7 @@
 // @include     https://*limetorrents.*
 // @include     https://eztv.ag*
 // @include     https://*nyaa.*
-// @require     http://awe-static.acestream.me/script_map.js?5
+// @require     https://raw.githubusercontent.com/rusingineer/Ace-Stream-Magic-Player/master/script_map.js
 // @require     http://awe-static.acestream.me/vendor/jquery/jquery-1.7.min.js
 // @require     http://awe-static.acestream.me/lib/ts/core.js?5
 // @require     http://awe-static.acestream.me/lib/ts/jquery_wrapper.js
