@@ -1,0 +1,276 @@
+#x-acestream-magicplayer-window {
+	font-family: Open Sans,Arial,Tahoma;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: none;
+	z-index: 999999;
+}
+#x-acestream-magicplayer-window .overlay-background {
+	width: 100%;
+	height: 5000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.95;
+}
+#x-acestream-magicplayer-window .big-screen {
+	width: 1005px;
+	height: 627px;
+	border-radius: 7px;
+	background: #2b2b2b;
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+}
+#x-acestream-magicplayer-window .top-panel {
+	height: 57px;
+	width: 100%;
+	position: relative;
+	background: #424242;
+	border-radius: 7px 7px 0 0;
+}
+#x-acestream-magicplayer-window .magic-logo {
+	width: 30px;
+	height: 30px;
+	background: url(http://magicplayer.acestream.org/new/mp.png) no-repeat;
+	position: absolute;
+	top: 12px;
+	left: 20px;
+}
+#x-acestream-magicplayer-window .magic-title {
+	font-size: 18px;
+	color: #eaeaea;
+	font-style: italic;
+	line-height: 57px;
+	position: absolute;
+	left: 65px;
+	top: 0;
+}
+#x-acestream-magicplayer-window .magic-close {
+	width: 48px;
+	height: 32px;
+	background: url(http://magicplayer.acestream.org/new/close_.png) no-repeat;
+	position: absolute;
+	right: 20px;
+	top: 14px;
+	cursor: pointer;
+}
+#x-acestream-magicplayer-window .center {
+	position: absolute;
+	left: 0;
+	top: 57px;
+	width: 100%;
+	height: 450px;
+}
+#x-acestream-magicplayer-window #torrentstream-player-container, #x-acestream-magicplayer-window.no-plugin #torrentstream-info {
+	width: 738px;
+	height: 450px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #2b2b2b;
+}
+#x-acestream-magicplayer-window #torrentstream-player {
+    width: 100%;
+    height: 100%;
+}
+#x-acestream-magicplayer-window .player-line {
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	background: url(http://magicplayer.acestream.org/new/player-line.png) repeat-x;
+}
+#x-acestream-magicplayer-window .side-picture {
+	width: 240px;
+	height: 437px;
+	position: absolute;
+	right: 14px;
+	top: 13px;
+}
+#x-acestream-magicplayer-window .side-picture .pictures,
+#x-acestream-magicplayer-window .left-picture .picture {
+	width: 240px;
+	height: 350px;
+	background: #2b2b2b;
+}
+#x-acestream-magicplayer-window .side-picture .magic-btn {
+	width: 185px;
+	height: 35px;
+	background: #424242;
+	color: #aeaeae;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 35px;
+	text-decoration: none;
+	display: block;
+	position: absolute;
+	bottom: 26px;
+	left: 28px;
+}
+#x-acestream-magicplayer-window .side-picture .magic-btn,
+#x-acestream-magicplayer-window .side-picture .magic-btn:hover,
+#x-acestream-magicplayer-window .side-picture .magic-btn:visited {
+	text-decoration: none !important;
+	color: #aeaeae !important;
+}
+#x-acestream-magicplayer-window .bottom-picture {
+	width: 728px;
+	height: 90px;
+	background: #2b2b2b;
+	position: absolute;
+	left: 9px;
+	bottom: 24px;
+}
+
+#x-acestream-magicplayer-window.nopictures .big-screen {
+	width: 738px;
+	height: 543px;
+}
+
+/* FULLSCREEN */
+#x-acestream-magicplayer-window.fullscreen .big-screen,
+#x-acestream-magicplayer-window.fullscreen-mini .big-screen {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	border-radius: 0;
+	top: 0;
+	left: 0;
+}
+#x-acestream-magicplayer-window.fullscreen .top-panel,
+#x-acestream-magicplayer-window.fullscreen-mini .top-panel {
+	border-radius: 0;
+}
+#x-acestream-magicplayer-window.fullscreen .center {
+	top: 57px;
+	bottom: 146px;
+	height: auto;
+}
+#x-acestream-magicplayer-window.fullscreen #torrentstream-player-container, #x-acestream-magicplayer-window.no-plugin.fullscreen #torrentstream-info {
+	width: 658px;
+	height: 415px;
+	position: relative;
+	margin: 9px auto;
+}
+#x-acestream-magicplayer-window.fullscreen .player-line {
+	top: 415px;
+}
+#x-acestream-magicplayer-window.fullscreen .left-picture {
+	width: 240px;
+	height: 100%;
+	position: absolute;
+	left: 20px;
+	top: 43px;
+}
+#x-acestream-magicplayer-window.fullscreen .side-picture,
+#x-acestream-magicplayer-window.fullscreen-mini .side-picture {
+	right: 17px;
+	top: 43px;
+}
+#x-acestream-magicplayer-window.fullscreen .side-picture .magic-btn,
+#x-acestream-magicplayer-window.fullscreen-mini .side-picture .magic-btn {
+	margin: 32px auto 0;
+}
+#x-acestream-magicplayer-window.fullscreen .bottom-picture,
+#x-acestream-magicplayer-window.fullscreen-mini .bottom-picture {
+	width: 468px;
+	height: 60px;
+	position: relative;
+	margin: 5px auto;
+	bottom: 0;
+}
+#x-acestream-magicplayer-window.fullscreen .controls {
+	width: 100%;
+	height: 146px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #444444;
+}
+
+/* FULLSCREEN MINI */
+#x-acestream-magicplayer-window.fullscreen-mini .center {
+	position: absolute;
+	left: 0;
+	top: 61px;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+}
+#x-acestream-magicplayer-window.fullscreen-mini #torrentstream-player-container, #x-acestream-magicplayer-window.no-plugin.fullscreen-mini #torrentstream-info {
+	width: auto;
+	height: auto;
+	top: 10px;
+	bottom: 71px;
+	left: 40px;
+	right: 302px;
+}
+#x-acestream-magicplayer-window.fullscreen-mini .container {
+	position: absolute;
+	left: 40px;
+	right: 302px;
+	bottom: 0px;
+}
+
+/* NO PLUGIN */
+#x-acestream-magicplayer-window #torrentstream-info,
+#x-acestream-magicplayer-window #torrentstream-info .not-enabled {
+    display: none;
+}
+
+#x-acestream-magicplayer-window.no-plugin #torrentstream-info {
+    display: block;
+}
+
+#x-acestream-magicplayer-window.no-plugin #torrentstream-player-container {
+	display: none;
+}
+#x-acestream-magicplayer-window.no-plugin #torrentstream-info div {
+	position: relative;
+}
+#x-acestream-magicplayer-window.no-plugin #torrentstream-info div.missing-engine {
+	padding: 20% 10% 0 10%;
+}
+#x-acestream-magicplayer-window.no-plugin #torrentstream-info div.not-enabled {
+	padding: 15% 10% 0 10%;
+}
+#x-acestream-magicplayer-window.no-plugin #torrentstream-info p{
+	color: #EAEAEA;
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+}
+#x-acestream-magicplayer-window.no-plugin .install-btn {
+    margin: 50px auto;
+    position: relative;
+	width: 185px;
+	height: 35px;
+	background: #498C9F;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 35px;
+	text-decoration: none;
+	display: block;
+}
+#x-acestream-magicplayer-window.no-plugin .install-btn,
+#x-acestream-magicplayer-window.no-plugin .install-btn:hover,
+#x-acestream-magicplayer-window.no-plugin .install-btn:visited {
+	color: #EAEAEA !important;
+	text-decoration: none !important;
+}
+
+#x-acestream-magicplayer-window.no-plugin.disabled  #torrentstream-info .missing-engine {
+	display: none;
+}
+#x-acestream-magicplayer-window.no-plugin.disabled  #torrentstream-info .not-enabled  {
+	display: block;
+}
